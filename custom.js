@@ -24,21 +24,21 @@ function getHumanChoice (choice) {
 }
 
 document.querySelector ('.rock').addEventListener ('click', function () {
-  // const humanSelection = getHumanChoice ('rock');
+  const humanSelection = getHumanChoice ('rock');
   // const computerSelection = getComputerChoice ();
   // playRound (humanSelection, computerSelection);
   playGame("rock");
 });
 
 document.querySelector ('.paper').addEventListener ('click', function () {
-  // const humanSelection = getHumanChoice ('paper');
+  const humanSelection = getHumanChoice ('paper');
   // const computerSelection = getComputerChoice ();
   // playRound (humanSelection, computerSelection);
   playGame("papper");
 });
 
 document.querySelector ('.scissors').addEventListener ('click', function () {
-  // const humanSelection = getHumanChoice ('scissors');
+  const humanSelection = getHumanChoice ('scissors');
   // const computerSelection = getComputerChoice ();
   // playRound (humanSelection, computerSelection);
   playGame("scissors");
